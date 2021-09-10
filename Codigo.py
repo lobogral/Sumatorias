@@ -29,3 +29,7 @@ n = Symbol("n", integer=True, nonnegative=True)
 i = Symbol("i")
 print(simplify(summation(m**i, (i,0,n))))
 
+n = Symbol("n", integer=True, nonnegative=True)
+i = Symbol("i")
+print(simplify(summation(i, (i,0,n))))
+
